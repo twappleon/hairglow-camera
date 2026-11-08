@@ -8,7 +8,7 @@
     "https://hairglow-camera-twappleons-projects.vercel.app/"
   ],
   "aliasesHTTPStatusDuringAudit": 404,
-  "scope": "text-only original public-policy/support archive",
+  "scope": "original public-policy/support text archive plus byte-verified Khmer font license; missing binary image/font and native app",
   "routes": [
     {
       "route": "/",
@@ -68,7 +68,6 @@
   "excludedBinaryAndPrivate": [
     "icon.png",
     "khmer.ttf",
-    "OFL-Khmer.txt",
     "native app source",
     "Vercel private server/API code and credentials"
   ],
@@ -79,5 +78,14 @@
   "triggeredUnexpectedGitDeploymentId": "dpl_DCQ5VwQv7a82Ag6GcJphg11VitVE",
   "triggerCommit": "c6d55485b7dfd8d9b692fb9a30d537cbd225b2c9",
   "restorationVerified": true,
-  "caveat": "An initial GitHub main README unexpectedly auto-deployed and disrupted aliases. The previous CLI deployment was immediately restored by rollback; no recovered snapshot was deployed."
+  "caveat": "An initial GitHub main README unexpectedly auto-deployed and disrupted aliases. The previous CLI deployment was immediately restored by rollback; no recovered snapshot was deployed.",
+  "recoveredOriginalLicense": {
+    "file": "OFL-Khmer.txt",
+    "originDeploymentId": "dpl_FFmkHu15g9VfF3AsQeJdc4mDfGYB",
+    "originSha1": "dc631d7889d9480d9eb15285266fbe0a9e5d159d",
+    "upstreamUrl": "https://github.com/notofonts/khmer/blob/main/OFL.txt",
+    "upstreamGitBlob": "fddb7127172332edd0d0a0097ab3ad92ead7ba6b",
+    "verifiedAt": "2026-11-08",
+    "caveat": "Exact license text match only. Original khmer.ttf binary remains missing/unverified; license coverage does not prove font bytes."
+  }
 }
