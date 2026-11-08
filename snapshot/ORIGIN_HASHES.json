@@ -1,0 +1,21 @@
+{
+  "deploymentId": "dpl_FFmkHu15g9VfF3AsQeJdc4mDfGYB",
+  "algorithm": "sha1",
+  "source": "Vercel immutable CLI deployment / source tree file uid; exact bytes checked for 11 archived text files",
+  "files": {
+    "index.html": "b31e50377d00b609787ec26b20e8c8686c18af20",
+    "privacy.html": "b31e50377d00b609787ec26b20e8c8686c18af20",
+    "privacy-zh-hans.html": "64bea135dc56ddea2fe9dd86874f6ad3acf75741",
+    "privacy-zh-hant.html": "b197fcd6e4e37f771379f071b9f2bdb9418f8407",
+    "privacy-km.html": "8793787c607b9be05d1d95f7dde8b1a541462998",
+    "support.html": "a6bf3162aa699ea0bade05662af106269b5de6d1",
+    "style.css": "b33144da76f7d6bdd411cb58d0cadfbed385d11c",
+    "robots.txt": "65990256b6ebe0149d8edfcae37274b6af3e42ae",
+    "app-ads.txt": "9eaf1936b0c9a4391ecbddd1c7ab073d82deb1e0",
+    "policy-content.json": "f47de429b13408d839dd15b7535bacca401d58f9",
+    "vercel.json": "321e66d6fe770f63afc018295962da2057702888",
+    "icon.png": "2650b3429c02deeec22169fb5de2032520dc04fd",
+    "khmer.ttf": "27ee00d311af2a94322f433541cfd99c757693c0",
+    "OFL-Khmer.txt": "dc631d7889d9480d9eb15285266fbe0a9e5d159d"
+  }
+}
