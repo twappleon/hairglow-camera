@@ -29,3 +29,16 @@ Feature: HairGlow legal website source recovery and alias integrity
     Then the live aliases must be checked immediately for 200 and expected policy content
     And any rollback must restore the verified preceding production deployment
     And future main commits remain blocked until the Git auto-deploy boundary is reviewed
+
+  Scenario: Archived public files must match the immutable deployment's exact bytes
+    Given 14 expected source-file SHA-1 identifiers were read from the original Vercel CLI deployment
+    And the local archive currently contains 11 matching text files and is missing three binary or license files
+    When the immutable origin audit runs
+    Then the 11 archived text files must match their original source identifiers
+    And the missing icon.png, khmer.ttf and OFL-Khmer.txt must block deployable readiness
+
+  Scenario: A same-named but substituted asset cannot pass a recovery release check
+    Given an otherwise complete synthetic archive and its expected source checksums
+    When icon.png, khmer.ttf or a privacy HTML file is replaced without updating its expected source hash
+    Then the deployment preflight must fail
+    And GitHub main, production aliases and the native mobile app remain unchanged
