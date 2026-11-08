@@ -3,7 +3,9 @@ import assert from 'node:assert/strict';
 import { tmpdir } from 'node:os';
 import { mkdtempSync, rmSync, writeFileSync, unlinkSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { createHash } from 'node:crypto';
 import { inspectStaticSite } from '../scripts/deployment-preflight.mjs';
+import { ORIGIN_DEPLOYMENT_ID, ORIGIN_FILENAMES } from '../scripts/origin-lock.mjs';
 
 const pages = ['index.html', 'privacy.html', 'privacy-zh-hans.html',
   'privacy-zh-hant.html', 'privacy-km.html', 'support.html'];
@@ -16,12 +18,15 @@ function fixture(callback) {
     for (const page of pages) writeFileSync(join(root, page),
       '<html><head><link rel="icon" href="/icon.png"><link rel="stylesheet" href="/style.css"></head><body>HairGlow</body></html>');
     writeFileSync(join(root, 'style.css'), "@font-face{src:url('/khmer.ttf')}");
-    for (const file of ['robots.txt', 'app-ads.txt', 'policy-content.json', 'icon.png', 'khmer.ttf', 'OFL-Khmer.txt']) writeFileSync(join(root, file), 'fixture-only');
+    for (const file of ['robots.txt', 'app-ads.txt', 'policy-content.json', 'icon.png', 'khmer.ttf', 'OFL-Khmer.txt', 'vercel.json']) writeFileSync(join(root, file), 'fixture-only');
     writeFileSync(join(root, 'PROVENANCE.json'), JSON.stringify({
       productionDeployed: false, requiresExplicitApprovalForDeployment: true,
       routes: routes.map(route => ({ route })),
       excludedBinaryAndPrivate: ['icon.png', 'khmer.ttf', 'OFL-Khmer.txt', 'native app source']
     }));
+    const files = Object.fromEntries(ORIGIN_FILENAMES.map(name => [name,
+      createHash('sha1').update(readFileSync(join(root, name))).digest('hex')]));
+    writeFileSync(join(root, 'ORIGIN_HASHES.json'), JSON.stringify({ deploymentId: ORIGIN_DEPLOYMENT_ID, algorithm: 'sha1', files }));
     callback(root);
   } finally { rmSync(root, { recursive: true, force: true }); }
 }
@@ -57,4 +62,10 @@ test('approval provenance is mandatory even when all assets exist', () => fixtur
   const r = inspectStaticSite(root);
   assert.equal(r.deployable, false);
   assert.ok(r.problems.some(x => x.includes('explicit-deployment-approval')));
+}));
+test('complete files with substituted icon must still fail immutable-source check', () => fixture(root => {
+  writeFileSync(join(root, 'icon.png'), 'different icon bytes');
+  const r = inspectStaticSite(root);
+  assert.equal(r.deployable, false);
+  assert.ok(r.problems.some(x => x.includes('immutable origin: immutable source mismatch: icon.png')));
 }));
