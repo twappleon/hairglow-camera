@@ -1,0 +1,191 @@
+{
+  "contact": "twyhleon@gmail.com",
+  "en": {
+    "title": "Privacy Policy",
+    "tag": "Hair Portfolio Camera",
+    "date": "Effective & updated",
+    "intro": "Your hair portfolio belongs to you. HairGlow keeps projects on your device and does not automatically upload your photos to our servers.",
+    "contactTitle": "Contact the developer",
+    "contactText": "For privacy questions or requests, contact the HairGlow developer at",
+    "footer": "This policy covers HairGlow on iOS and Android and this policy website.",
+    "sections": [
+      [
+        "1. What HairGlow does",
+        "HairGlow supports offline salon photo editing and optional team sharing. The developer-operated team API runs on Vercel, with Neon PostgreSQL and private Vercel Blob storage in Singapore."
+      ],
+      [
+        "2. Photos and project information",
+        "Photos you capture or import, logos, project names, captions, brand settings and edit instructions are stored in the app’s local storage. Original files may contain metadata. We do not automatically send these files to a developer server or supply them as advertising content. Saving to Photos or sharing happens when you choose those actions. The destination app or service then handles the shared copy under its own policy. Device and photo-library backups may also operate according to your Apple, Google and device settings."
+      ],
+      [
+        "On-device analysis and optional team cloud",
+        "Face/hair analysis and video creation run on your device. Photos upload only when you choose Upload and confirm. Shared data includes project originals, logos, brand settings, client/stylist details, service, price, booking information and consent records. Authorized members access content according to their roles. We store account email, salted password hashes, hashed sessions and recovery codes, and team permissions. Keep your recovery code safe. Deleting a cloud project or account revokes access immediately; private photo deletion normally completes within 24 hours. Private daily database backups are retained for up to 7 days. Copies downloaded by others require separate deletion. Vercel and Neon process data to provide this service; infrastructure logs may contain request metadata. Purchases are disabled. No user-testing forms or export statistics are collected."
+      ],
+      [
+        "3. Permissions",
+        "Camera access supports taking pictures. Photo-library access or the system photo picker supports importing selected photos; save permission supports exporting to Photos where required by the operating system. Screen brightness is adjusted for fill light. This version does not request microphone, contacts or precise-location access. You can change permissions in device settings; denied permissions may limit the related feature."
+      ],
+      [
+        "4. Advertising and privacy choices",
+        "HairGlow uses Google AdMob and Google’s User Messaging Platform (UMP). Depending on device settings and consent, Google’s SDK may process IP addresses (including approximate location), advertising/device identifiers, app or ad interactions, and diagnostic/performance information for advertising, measurement and fraud prevention. This version does not request iOS App Tracking Transparency permission. When required and available, UMP presents privacy choices. Where applicable, use the app’s Ad privacy choices button to revisit them; device advertising settings provide additional controls. Ads are requested only when UMP permits them. No ad availability or choice is required to use the core photo workflow. Read <a href='https://policies.google.com/privacy'>Google’s Privacy Policy</a> and <a href='https://policies.google.com/technologies/partner-sites'>how Google uses information from apps</a>."
+      ],
+      [
+        "5. This website and support",
+        "This policy site is hosted by Vercel. Hosting may process request information such as IP address, browser information, URL and time to deliver and secure the site. We add no advertising scripts or analytics cookies to this site. See <a href='https://vercel.com/legal/privacy-notice'>Vercel’s Privacy Notice</a>. If you contact us, we receive your email address and the information you send, and use them to respond. Please avoid sending customer photos or sensitive information unless necessary."
+      ],
+      [
+        "6. Retention, deletion and backups",
+        "Projects remain on your device until you delete them or remove app data. Deleting a project removes its app-managed folder; it does not delete copies exported to Photos, shared elsewhere, or held in device backups. Uninstalling ordinarily removes local app data, subject to operating-system backup and restore behavior. Manage exported copies and backups separately. We cannot remotely access or delete your local photos. Support correspondence is retained as needed to resolve the request and meet applicable obligations. Google and Vercel determine retention for their services under their policies."
+      ],
+      [
+        "7. Your choices and rights",
+        "Depending on applicable law, you may have rights to access, correct or delete personal information, restrict or object to processing, obtain a portable copy, withdraw consent, or complain to a data-protection authority. Use the device/app controls for local data and advertising choices, or contact us for information you sent directly to us. Google and Vercel may process data in other countries as described in their policies. Network security and device safeguards reduce risks but cannot guarantee absolute security."
+      ],
+      [
+        "8. Customers, children and updates",
+        "Obtain appropriate permission before photographing or sharing someone else’s image. HairGlow is designed primarily for professional portfolios and is not directed at children under 13. Contact us if you believe a child has sent personal information to the developer. We may update this policy as features or data practices change; the effective date above identifies the current version."
+      ]
+    ]
+  },
+  "zh-Hans": {
+    "title": "隐私政策",
+    "tag": "美发作品相机",
+    "date": "生效及更新日期",
+    "intro": "你的美发作品由你掌握。HairGlow 将作品保存在设备上，不会自动把照片上传到我们的服务器。",
+    "contactTitle": "联系开发者",
+    "contactText": "如有隐私问题或请求，请联系 HairGlow 开发者：",
+    "footer": "本政策适用于 iOS、Android 版 HairGlow 及本隐私政策网站。",
+    "sections": [
+      [
+        "1. 产品与适用范围",
+        "HairGlow 支持离线沙龙照片编辑及可选团队分享。开发者运营的团队 API 部署于 Vercel，搭配新加坡区域的 Neon PostgreSQL 数据库与私有 Vercel Blob 存储。"
+      ],
+      [
+        "2. 照片与作品资料",
+        "拍摄或导入的照片、Logo、作品名称、文字、品牌设置和编辑参数保存在 App 本机空间。原始文件可能含有元数据。我们不会自动将这些文件传送到开发者服务器，也不会将其作为广告内容提供。存入相簿或分享由你主动选择，接收副本的应用或服务按其自身政策处理。Apple、Google 和设备设置可能另行启用设备或相簿备份。"
+      ],
+      [
+        "设备端分析与可选团队云端",
+        "人脸／头发分析及影片制作在设备端进行。只有你选择上传并确认后，才会传送作品原图、Logo、品牌设置、顾客／设计师资料、服务、价格、预约信息及同意记录。获授权成员按角色访问内容。服务器保存账号邮箱、加盐密码哈希、哈希形式的登录令牌及恢复码、团队权限。请妥善保管恢复码。删除云端作品或账号会立即撤销访问，私有照片通常在 24 小时内清除。每日私有数据库备份最多保留 7 天。其他成员已下载的副本需另行删除。Vercel 与 Neon 为提供服务处理上述数据，基础设施日志可能含请求元数据。付费购买保持关闭，不收集用户测试表单或导出统计。"
+      ],
+      [
+        "3. 设备权限",
+        "相机权限用于拍照；相簿权限或系统照片选择器用于导入所选照片；操作系统要求时，保存权限用于将成品存入相簿。App 会为补光调整屏幕亮度。本版本不请求麦克风、通讯录或精确定位权限。你可在设备设置中更改权限；拒绝权限可能限制对应功能。"
+      ],
+      [
+        "4. 广告与隐私选择",
+        "HairGlow 使用 Google AdMob 及用户消息平台 UMP。根据设备设置和同意状态，Google SDK 可能处理 IP 地址（包括推测的大致位置）、广告或设备标识符、应用或广告互动，以及诊断和性能信息，用于广告、衡量和反作弊。本版本不请求 iOS App Tracking Transparency 跟踪授权。需要且可用时，UMP 会展示隐私选择；适用时可通过 App 的「广告隐私选择」按钮再次修改，也可使用设备广告设置。App 只在 UMP 允许时请求广告。基础照片功能不以广告可用或接受广告为前提。请参阅 <a href='https://policies.google.com/privacy'>Google 隐私政策</a>及<a href='https://policies.google.com/technologies/partner-sites'> Google 如何使用来自应用的信息</a>。"
+      ],
+      [
+        "5. 本网站与联系支持",
+        "本网站托管于 Vercel。为提供和保护网站，托管服务可能处理 IP 地址、浏览器信息、访问路径及时间等请求信息。本网站未添加广告脚本或分析 Cookie。参阅 <a href='https://vercel.com/legal/privacy-notice'>Vercel 隐私声明</a>。联系开发者时，我们会收到你提供的邮箱和内容，并用于回复。除非必要，请勿发送顾客照片或敏感资料。"
+      ],
+      [
+        "6. 保存、删除与备份",
+        "作品保留至你删除作品或清除 App 数据。删除作品会移除 App 管理的对应文件夹，不会删除已导出到相簿、分享至其他服务或设备备份中的副本。卸载通常会删除本机 App 数据，具体取决于系统备份和恢复机制。请另行管理导出副本及备份。我们无法远程访问或删除你的本机照片。支持邮件按解决请求及适用义务所需时间保存。Google 和 Vercel 按其政策管理服务数据的保存期限。"
+      ],
+      [
+        "7. 你的选择与权利",
+        "根据适用法律，你可能享有访问、更正、删除、限制或反对处理、取得可携副本、撤回同意及向数据保护机关投诉等权利。本机数据和广告选择可通过 App 或设备控制项管理；直接交给开发者的资料可通过下方邮箱提出请求。Google 和 Vercel 可能依其政策跨境处理数据。网络和设备防护有助降低风险，但不能保证绝对安全。"
+      ],
+      [
+        "8. 顾客、儿童与政策更新",
+        "拍摄或分享他人影像前，应取得适当许可。HairGlow 主要用于专业作品集，不以 13 岁以下儿童为目标。若认为儿童向开发者提供了个人资料，请联系我们。功能或数据处理方式变化时，我们可能更新本政策，以上生效日期标识当前版本。"
+      ]
+    ]
+  },
+  "zh-Hant": {
+    "title": "隱私權政策",
+    "tag": "美髮作品相機",
+    "date": "生效及更新日期",
+    "intro": "你的美髮作品由你掌握。HairGlow 將作品保存在裝置上，不會自動把照片上傳到我們的伺服器。",
+    "contactTitle": "聯絡開發者",
+    "contactText": "如有隱私問題或請求，請聯絡 HairGlow 開發者：",
+    "footer": "本政策適用於 iOS、Android 版 HairGlow 及本隱私權政策網站。",
+    "sections": [
+      [
+        "1. 產品與適用範圍",
+        "HairGlow 支援離線沙龍照片編輯及可選團隊分享。開發者營運的團隊 API 部署於 Vercel，搭配新加坡區域的 Neon PostgreSQL 資料庫與私有 Vercel Blob 儲存。"
+      ],
+      [
+        "2. 照片與作品資料",
+        "拍攝或匯入的照片、Logo、作品名稱、文字、品牌設定和編輯參數保存在 App 本機空間。原始檔案可能含有中繼資料。我們不會自動將這些檔案傳送到開發者伺服器，也不會將其作為廣告內容提供。存入相簿或分享由你主動選擇，接收副本的應用程式或服務依其政策處理。Apple、Google 和裝置設定可能另行啟用裝置或相簿備份。"
+      ],
+      [
+        "裝置端分析與可選團隊雲端",
+        "人臉／頭髮分析及影片製作在裝置端進行。只有你選擇上傳並確認後，才會傳送作品原圖、Logo、品牌設定、顧客／設計師資料、服務、價格、預約資訊及同意紀錄。獲授權成員依角色存取內容。伺服器保存帳號信箱、加鹽密碼雜湊、雜湊形式的登入權杖及恢復碼、團隊權限。請妥善保管恢復碼。刪除雲端作品或帳號會立即撤銷存取，私有照片通常於 24 小時內清除。每日私有資料庫備份最多保留 7 天。其他成員已下載的副本需另行刪除。Vercel 與 Neon 為提供服務處理上述資料，基礎設施日誌可能含請求中繼資料。付費購買維持關閉，不收集使用者測試表單或匯出統計。"
+      ],
+      [
+        "3. 裝置權限",
+        "相機權限用於拍照；相簿權限或系統照片選擇器用於匯入所選照片；作業系統要求時，儲存權限用於將成品存入相簿。App 會為補光調整螢幕亮度。本版本不請求麥克風、通訊錄或精確定位權限。你可在裝置設定中更改權限；拒絕權限可能限制對應功能。"
+      ],
+      [
+        "4. 廣告與隱私選擇",
+        "HairGlow 使用 Google AdMob 及使用者訊息平台 UMP。依裝置設定及同意狀態，Google SDK 可能處理 IP 位址（包括推測的大致位置）、廣告或裝置識別碼、應用程式或廣告互動，以及診斷和效能資訊，用於廣告、衡量和防詐。本版本不請求 iOS App Tracking Transparency 追蹤授權。需要且可用時，UMP 會顯示隱私選擇；適用時可透過 App 的「廣告隱私選擇」按鈕再次修改，也可使用裝置廣告設定。App 只在 UMP 允許時請求廣告。基礎照片功能不以廣告可用或接受廣告為前提。請參閱 <a href='https://policies.google.com/privacy'>Google 隱私權政策</a>及<a href='https://policies.google.com/technologies/partner-sites'> Google 如何使用來自應用程式的資訊</a>。"
+      ],
+      [
+        "5. 本網站與聯絡支援",
+        "本網站託管於 Vercel。為提供及保護網站，託管服務可能處理 IP 位址、瀏覽器資訊、造訪路徑及時間等請求資訊。本網站未加入廣告指令碼或分析 Cookie。參閱 <a href='https://vercel.com/legal/privacy-notice'>Vercel 隱私權聲明</a>。聯絡開發者時，我們會收到你提供的信箱和內容，並用於回覆。除非必要，請勿寄送顧客照片或敏感資料。"
+      ],
+      [
+        "6. 保存、刪除與備份",
+        "作品保留至你刪除作品或清除 App 資料。刪除作品會移除 App 管理的對應資料夾，不會刪除已匯出至相簿、分享至其他服務或裝置備份中的副本。解除安裝通常會刪除本機 App 資料，實際行為取決於系統備份及還原機制。請另行管理匯出副本及備份。我們無法遠端存取或刪除你的本機照片。支援郵件依解決請求及適用義務所需時間保存。Google 和 Vercel 依其政策管理服務資料的保存期限。"
+      ],
+      [
+        "7. 你的選擇與權利",
+        "依適用法律，你可能享有存取、更正、刪除、限制或反對處理、取得可攜副本、撤回同意及向資料保護機關申訴等權利。本機資料及廣告選擇可透過 App 或裝置控制項管理；直接交給開發者的資料可透過下方信箱提出請求。Google 和 Vercel 可能依其政策跨境處理資料。網路與裝置防護有助降低風險，但不能保證絕對安全。"
+      ],
+      [
+        "8. 顧客、兒童與政策更新",
+        "拍攝或分享他人影像前，應取得適當許可。HairGlow 主要用於專業作品集，不以 13 歲以下兒童為對象。若認為兒童向開發者提供了個人資料，請聯絡我們。功能或資料處理方式變更時，我們可能更新本政策，以上生效日期標示目前版本。"
+      ]
+    ]
+  },
+  "km": {
+    "title": "គោលការណ៍ឯកជនភាព",
+    "tag": "កាមេរ៉ាថតស្នាដៃម៉ូដសក់",
+    "date": "កាលបរិច្ឆេទមានប្រសិទ្ធភាព និងធ្វើបច្ចុប្បន្នភាព",
+    "intro": "ស្នាដៃម៉ូដសក់របស់អ្នកស្ថិតក្រោមការគ្រប់គ្រងរបស់អ្នក។ HairGlow រក្សាទុកគម្រោងនៅលើឧបករណ៍របស់អ្នក ហើយមិនផ្ទុករូបថតទៅម៉ាស៊ីនមេរបស់យើងដោយស្វ័យប្រវត្តិទេ។",
+    "contactTitle": "ទាក់ទងអ្នកអភិវឌ្ឍ",
+    "contactText": "សម្រាប់សំណួរ ឬសំណើអំពីឯកជនភាព សូមទាក់ទងអ្នកអភិវឌ្ឍ HairGlow តាម៖",
+    "footer": "គោលការណ៍នេះអនុវត្តចំពោះ HairGlow លើ iOS និង Android និងគេហទំព័រគោលការណ៍នេះ។",
+    "sections": [
+      [
+        "១. អំពីកម្មវិធី",
+        "HairGlow គាំទ្រការកែរូបថតក្រៅបណ្ដាញ និងការចែករំលែកក្រុមជាជម្រើស។ សេវាក្រុមរបស់អ្នកអភិវឌ្ឍន៍ដំណើរការលើ Vercel ជាមួយ Neon PostgreSQL និងឃ្លាំងឯកជន Vercel Blob ក្នុងតំបន់សិង្ហបុរី។"
+      ],
+      [
+        "២. រូបថត និងទិន្នន័យគម្រោង",
+        "រូបថតដែលអ្នកថត ឬនាំចូល និមិត្តសញ្ញា ឈ្មោះគម្រោង អត្ថបទ ការកំណត់ម៉ាក និងការកែសម្រួល ត្រូវបានរក្សាទុកក្នុងកម្មវិធីលើឧបករណ៍។ ឯកសារដើមអាចមានទិន្នន័យមេតា។ យើងមិនផ្ញើឯកសារទាំងនេះទៅម៉ាស៊ីនមេរបស់អ្នកអភិវឌ្ឍដោយស្វ័យប្រវត្តិ ឬផ្តល់វាជាខ្លឹមសារផ្សាយពាណិជ្ជកម្មទេ។ ការរក្សាទុកក្នុងអាល់ប៊ុម ឬចែករំលែកកើតឡើងតាមជម្រើសរបស់អ្នក។ សេវាដែលទទួលច្បាប់ចម្លងអនុវត្តគោលការណ៍របស់ខ្លួន។ ការបម្រុងទុកឧបករណ៍ ឬរូបថតអាចដំណើរការតាមការកំណត់ Apple, Google និងឧបករណ៍របស់អ្នក។"
+      ],
+      [
+        "ការវិភាគលើឧបករណ៍ និងពពកក្រុមជាជម្រើស",
+        "ការវិភាគមុខនិងសក់ និងការបង្កើតវីដេអូដំណើរការលើឧបករណ៍។ រូបថតត្រូវបានបង្ហោះតែពេលអ្នកជ្រើសបង្ហោះហើយបញ្ជាក់ប៉ុណ្ណោះ។ ទិន្នន័យរួមមានរូបថតដើម ឡូហ្គោ ម៉ាក ព័ត៌មានអតិថិជននិងជាង សេវា តម្លៃ ព័ត៌មានកក់ និងកំណត់ត្រាយល់ព្រម។ សមាជិកដែលមានសិទ្ធិចូលប្រើតាមតួនាទី។ ម៉ាស៊ីនមេរក្សាអ៊ីមែល ពាក្យសម្ងាត់ហាសដែលមានអំបិល ថូខឹនចូលនិងកូដស្ដារក្នុងទម្រង់ហាស និងសិទ្ធិក្រុម។ សូមរក្សាកូដស្ដារឱ្យមានសុវត្ថិភាព។ ការលុបស្នាដៃពពកឬគណនីដកសិទ្ធិចូលប្រើភ្លាមៗ។ រូបថតឯកជនជាធម្មតាត្រូវលុបក្នុងរយៈពេល 24 ម៉ោង។ ច្បាប់ចម្លងមូលដ្ឋានទិន្នន័យឯកជនប្រចាំថ្ងៃរក្សាទុករហូតដល់ 7 ថ្ងៃ។ ច្បាប់ចម្លងដែលអ្នកផ្សេងបានទាញយកត្រូវលុបដោយឡែក។ Vercel និង Neon ដំណើរការទិន្នន័យដើម្បីផ្តល់សេវា។ កំណត់ហេតុហេដ្ឋារចនាសម្ព័ន្ធអាចមានទិន្នន័យសំណើ។ ការទិញក្នុងកម្មវិធីនៅតែបិទ។ មិនប្រមូលទម្រង់សាកល្បងអ្នកប្រើឬស្ថិតិនាំចេញទេ។"
+      ],
+      [
+        "៣. ការអនុញ្ញាត",
+        "ការចូលប្រើកាមេរ៉ាសម្រាប់ថតរូប។ ការចូលប្រើអាល់ប៊ុម ឬឧបករណ៍ជ្រើសរូបថតរបស់ប្រព័ន្ធសម្រាប់នាំចូលរូបដែលអ្នកជ្រើស។ ការអនុញ្ញាតរក្សាទុកត្រូវប្រើពេលប្រព័ន្ធតម្រូវ ដើម្បីនាំចេញទៅអាល់ប៊ុម។ កម្មវិធីកែពន្លឺអេក្រង់សម្រាប់បំភ្លឺ។ កំណែនេះមិនស្នើសុំមីក្រូហ្វូន បញ្ជីទំនាក់ទំនង ឬទីតាំងជាក់លាក់ទេ។ អ្នកអាចប្តូរការអនុញ្ញាតក្នុងការកំណត់ឧបករណ៍។ ការបដិសេធអាចកំណត់មុខងារដែលពាក់ព័ន្ធ។"
+      ],
+      [
+        "៤. ការផ្សាយពាណិជ្ជកម្ម និងជម្រើសឯកជនភាព",
+        "HairGlow ប្រើ Google AdMob និង UMP។ អាស្រ័យលើការកំណត់ និងការយល់ព្រម Google SDK អាចដំណើរការអាសយដ្ឋាន IP និងទីតាំងប្រហាក់ប្រហែល លេខសម្គាល់ផ្សាយពាណិជ្ជកម្មឬឧបករណ៍ អន្តរកម្មកម្មវិធីឬពាណិជ្ជកម្ម និងទិន្នន័យវិនិច្ឆ័យនិងប្រសិទ្ធភាព សម្រាប់ពាណិជ្ជកម្ម ការវាស់វែង និងការការពារការក្លែងបន្លំ។ កំណែនេះមិនស្នើសុំការអនុញ្ញាតតាមដាន iOS App Tracking Transparency ទេ។ នៅពេលតម្រូវ និងអាចប្រើបាន UMP បង្ហាញជម្រើសឯកជនភាព។ នៅពេលអនុវត្តបាន អ្នកអាចប្តូរជម្រើសតាមប៊ូតុងឯកជនភាពពាណិជ្ជកម្មក្នុងកម្មវិធី ឬការកំណត់ពាណិជ្ជកម្មរបស់ឧបករណ៍។ កម្មវិធីស្នើសុំពាណិជ្ជកម្មតែនៅពេល UMP អនុញ្ញាត។ មុខងាររូបថតមូលដ្ឋានមិនតម្រូវឱ្យទទួលយកពាណិជ្ជកម្មទេ។ សូមអាន <a href='https://policies.google.com/privacy'>គោលការណ៍ឯកជនភាព Google</a> និង<a href='https://policies.google.com/technologies/partner-sites'>ការប្រើព័ត៌មានពីកម្មវិធីរបស់ Google</a>។"
+      ],
+      [
+        "៥. គេហទំព័រ និងការគាំទ្រ",
+        "គេហទំព័រនេះបង្ហោះលើ Vercel។ សេវាបង្ហោះអាចដំណើរការ IP ព័ត៌មានកម្មវិធីរុករក ផ្លូវទំព័រ និងពេលវេលា ដើម្បីផ្តល់និងការពារគេហទំព័រ។ យើងមិនបន្ថែមស្គ្រីបពាណិជ្ជកម្ម ឬខូគីវិភាគទេ។ សូមអាន <a href='https://vercel.com/legal/privacy-notice'>គោលការណ៍ Vercel</a>។ ប្រសិនបើអ្នកទាក់ទងយើង យើងទទួលអ៊ីមែល និងព័ត៌មានដែលអ្នកផ្ញើ ដើម្បីឆ្លើយតប។ សូមកុំផ្ញើរូបអតិថិជន ឬព័ត៌មានរសើប លុះត្រាតែចាំបាច់។"
+      ],
+      [
+        "៦. ការរក្សាទុក លុប និងបម្រុងទុក",
+        "គម្រោងនៅលើឧបករណ៍រហូតដល់អ្នកលុបវា ឬលុបទិន្នន័យកម្មវិធី។ ការលុបគម្រោងលុបថតឯកសារដែលកម្មវិធីគ្រប់គ្រង ប៉ុន្តែមិនលុបច្បាប់ចម្លងក្នុងអាល់ប៊ុម សេវាផ្សេង ឬទិន្នន័យបម្រុងទុកទេ។ ការលុបកម្មវិធីជាទូទៅលុបទិន្នន័យក្នុងឧបករណ៍ អាស្រ័យលើប្រព័ន្ធបម្រុងទុកនិងស្ដារ។ សូមគ្រប់គ្រងច្បាប់ចម្លងនិងការបម្រុងទុកដោយឡែក។ យើងមិនអាចចូលប្រើ ឬលុបរូបក្នុងឧបករណ៍ពីចម្ងាយទេ។ អ៊ីមែលគាំទ្ររក្សាទុកតាមតម្រូវការដោះស្រាយសំណើ និងកាតព្វកិច្ចដែលអនុវត្ត។ Google និង Vercel កំណត់រយៈពេលរក្សាទុកតាមគោលការណ៍របស់ខ្លួន។"
+      ],
+      [
+        "៧. សិទ្ធិ និងជម្រើសរបស់អ្នក",
+        "អាស្រ័យលើច្បាប់ អ្នកអាចមានសិទ្ធិចូលមើល កែតម្រូវ លុប កំណត់ឬជំទាស់ការដំណើរការ ទទួលច្បាប់ចម្លងដែលអាចផ្ទេរ ដកការយល់ព្រម ឬប្តឹងទៅអាជ្ញាធរការពារទិន្នន័យ។ ប្រើការកំណត់កម្មវិធីនិងឧបករណ៍សម្រាប់ទិន្នន័យក្នុងឧបករណ៍ និងជម្រើសពាណិជ្ជកម្ម។ សម្រាប់ព័ត៌មានដែលផ្ញើមកយើងផ្ទាល់ សូមទាក់ទងតាមអ៊ីមែលខាងក្រោម។ Google និង Vercel អាចដំណើរការទិន្នន័យនៅប្រទេសផ្សេងតាមគោលការណ៍របស់ខ្លួន។ ការការពារបណ្តាញនិងឧបករណ៍កាត់បន្ថយហានិភ័យ ប៉ុន្តែមិនធានាសុវត្ថិភាពដាច់ខាតទេ។"
+      ],
+      [
+        "៨. អតិថិជន កុមារ និងបច្ចុប្បន្នភាព",
+        "សូមទទួលការអនុញ្ញាតសមស្របមុនថត ឬចែករំលែករូបអ្នកដទៃ។ HairGlow ផ្តោតលើស្នាដៃវិជ្ជាជីវៈ ហើយមិនផ្តោតលើកុមារអាយុក្រោម ១៣ ឆ្នាំទេ។ សូមទាក់ទងយើង ប្រសិនបើអ្នកជឿថាកុមារបានផ្ញើព័ត៌មានផ្ទាល់ខ្លួនមកអ្នកអភិវឌ្ឍ។ យើងអាចកែប្រែគោលការណ៍ពេលមុខងារឬការដំណើរការទិន្នន័យផ្លាស់ប្តូរ។ កាលបរិច្ឆេទខាងលើបង្ហាញកំណែបច្ចុប្បន្ន។"
+      ]
+    ]
+  }
+}

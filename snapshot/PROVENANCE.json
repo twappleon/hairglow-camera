@@ -1,0 +1,77 @@
+{
+  "source": "immutable Vercel CLI deployment HTTP 200 + deployed vercel.json bytes",
+  "checkedAt": "2026-11-08T00:24:00Z",
+  "deploymentId": "dpl_FFmkHu15g9VfF3AsQeJdc4mDfGYB",
+  "deploymentUrl": "https://hairglow-camera-h7d1vt1d3-twappleons-projects.vercel.app",
+  "officialAliases": [
+    "https://hairglow-camera.vercel.app/",
+    "https://hairglow-camera-twappleons-projects.vercel.app/"
+  ],
+  "aliasesHTTPStatusDuringAudit": 404,
+  "scope": "text-only original public-policy/support archive",
+  "routes": [
+    {
+      "route": "/",
+      "path": "snapshot/index.html",
+      "status": 200
+    },
+    {
+      "route": "/privacy.html",
+      "path": "snapshot/privacy.html",
+      "status": 200
+    },
+    {
+      "route": "/privacy-zh-hans.html",
+      "path": "snapshot/privacy-zh-hans.html",
+      "status": 200
+    },
+    {
+      "route": "/privacy-zh-hant.html",
+      "path": "snapshot/privacy-zh-hant.html",
+      "status": 200
+    },
+    {
+      "route": "/privacy-km.html",
+      "path": "snapshot/privacy-km.html",
+      "status": 200
+    },
+    {
+      "route": "/support.html",
+      "path": "snapshot/support.html",
+      "status": 200
+    },
+    {
+      "route": "/style.css",
+      "path": "snapshot/style.css",
+      "status": 200,
+      "characters": 1183
+    },
+    {
+      "route": "/robots.txt",
+      "path": "snapshot/robots.txt",
+      "status": 200,
+      "characters": 23
+    },
+    {
+      "route": "/app-ads.txt",
+      "path": "snapshot/app-ads.txt",
+      "status": 200,
+      "characters": 59
+    },
+    {
+      "route": "/policy-content.json",
+      "path": "snapshot/policy-content.json",
+      "status": 200,
+      "characters": 16301
+    }
+  ],
+  "excludedBinaryAndPrivate": [
+    "icon.png",
+    "khmer.ttf",
+    "OFL-Khmer.txt",
+    "native app source",
+    "Vercel private server/API code and credentials"
+  ],
+  "productionDeployed": false,
+  "requiresExplicitApprovalForDeployment": true
+}
