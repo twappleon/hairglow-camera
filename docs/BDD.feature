@@ -16,9 +16,16 @@ Feature: HairGlow legal website source recovery and alias integrity
   Scenario: READY is not sufficient to establish alias availability
     Given both HairGlow official Vercel aliases returned 404
     And the deployment-specific hostname returned 200
-    Then flag the aliases as a release blocker without publishing a fix
+    Then preserve incident evidence and verify return to the original CLI deployment after corrective rollback
 
   Scenario: Prevent accidental publication of partial recovered source
     Given binary assets, font licenses and native app code are not recovered
     Then the archive is not considered deployable
     And no production website or app is changed
+
+  Scenario: A source-control bootstrap must not silently replace production
+    Given a previously empty repository is linked to Vercel production
+    When initializing main triggers an unintended README-only deployment
+    Then the live aliases must be checked immediately for 200 and expected policy content
+    And any rollback must restore the verified preceding production deployment
+    And future main commits remain blocked until the Git auto-deploy boundary is reviewed

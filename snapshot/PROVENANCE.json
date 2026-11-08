@@ -73,5 +73,11 @@
     "Vercel private server/API code and credentials"
   ],
   "productionDeployed": false,
-  "requiresExplicitApprovalForDeployment": true
+  "requiresExplicitApprovalForDeployment": true,
+  "aliasesHTTPStatusAfterRestorativeRollback": 200,
+  "restoredDeploymentId": "dpl_FFmkHu15g9VfF3AsQeJdc4mDfGYB",
+  "triggeredUnexpectedGitDeploymentId": "dpl_DCQ5VwQv7a82Ag6GcJphg11VitVE",
+  "triggerCommit": "c6d55485b7dfd8d9b692fb9a30d537cbd225b2c9",
+  "restorationVerified": true,
+  "caveat": "An initial GitHub main README unexpectedly auto-deployed and disrupted aliases. The previous CLI deployment was immediately restored by rollback; no recovered snapshot was deployed."
 }
