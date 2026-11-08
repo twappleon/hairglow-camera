@@ -1,6 +1,7 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { resolve, dirname, relative, isAbsolute, sep } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
+import { auditOriginAssets } from './origin-lock.mjs';
 
 const defaultRoot = resolve(dirname(fileURLToPath(import.meta.url)), '../snapshot');
 const required = ['index.html', 'privacy.html', 'privacy-zh-hans.html', 'privacy-zh-hant.html', 'privacy-km.html', 'support.html', 'style.css', 'robots.txt', 'app-ads.txt', 'policy-content.json', 'PROVENANCE.json'];
@@ -37,7 +38,9 @@ export function inspectStaticSite(root = defaultRoot) {
   for (const name of Array.isArray(provenance.excludedBinaryAndPrivate) ? provenance.excludedBinaryAndPrivate : []) {
     if (/^[A-Za-z0-9_.-]+\.(png|jpe?g|webp|ttf|otf|woff2?|txt)$/i.test(name) && !existsSync(resolve(base, name))) problems.push('missing source asset/license: ' + name);
   }
-  return { deployable: problems.length === 0, problems: [...new Set(problems)].sort(), referencedFiles: [...refs].sort() };
+  const origin = auditOriginAssets(base);
+  problems.push(...origin.problems.map(problem => 'immutable origin: ' + problem));
+  return { deployable: problems.length === 0, problems: [...new Set(problems)].sort(), referencedFiles: [...refs].sort(), originMatched: origin.matched, originExpected: origin.expected };
 }
 if (process.argv[1] && pathToFileURL(resolve(process.argv[1])).href === import.meta.url) {
   const result = inspectStaticSite(process.argv[2] || defaultRoot);
