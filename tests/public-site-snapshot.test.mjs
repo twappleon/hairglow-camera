@@ -8,7 +8,7 @@ const read=(name)=>readFileSync(resolve(base,name),"utf8");
 const locales=["privacy.html","privacy-zh-hans.html","privacy-zh-hant.html","privacy-km.html"];
 test("English privacy is intentionally the recovered root page",()=>assert.equal(read("index.html"),read("privacy.html")));
 test("four privacy pages have H1, title and complete language navigation",()=>{
-  for(const page of locales){const h=read(page);assert.match(h,/<title>[^<]+<\\/title>/i);assert.match(h,/<h1>[^<]+<\\/h1>/i);for(const p of locales)assert.ok(h.includes("/"+p),page+" missing "+p);}
+  for(const page of locales){const h=read(page);assert.match(h,new RegExp('<title>[^<]+</title>','i'));assert.match(h,new RegExp('<h1>[^<]+</h1>','i'));for(const p of locales)assert.ok(h.includes("/"+p),page+" missing "+p);}
 });
 test("support, styling and provenance are present",()=>{
   assert.match(read("support.html"),/<h1>Support/);assert.ok(read("style.css").length>100);
